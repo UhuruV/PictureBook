@@ -4,39 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".NextPictureFour">
 
     <ImageView
-        android:id="@+id/ivImage1"
+        android:id="@+id/ivImageFive"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintGuide_percent="50%"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/queens" />
+        app:srcCompat="@drawable/queens5" />
 
-    <EditText
-        android:id="@+id/edInfo"
+    <TextView
+        android:id="@+id/tvTextFive"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:text=" This image shows the power within and the beauty of confidence.Black don't crack."
+        android:layout_marginTop="70dp"
+        android:fontFamily="sans-serif-black"
+        android:text="Queendom.Adjust your crown"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ivImage1" />
+        app:layout_constraintTop_toBottomOf="@+id/ivImageFive" />
 
     <Button
-        android:id="@+id/btNext1"
+        android:id="@+id/btPreviousFour"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:text="NEXT"
+        android:layout_marginTop="120dp"
+        android:layout_marginEnd="260dp"
+        android:layout_marginRight="260dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Previous"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/edInfo" />
-
+        app:layout_constraintTop_toBottomOf="@+id/tvTextFive" />
 </androidx.constraintlayout.widget.ConstraintLayout>
